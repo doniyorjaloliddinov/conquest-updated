@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Prata', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+
+/* HEADER */
+.header {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo-link {
+  text-decoration: none;
+}
+
+.header-nav-ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header-nav-list {
+  margin-left: 65px;
+}
+
+.header-icons {
+  padding-left: 15px;
+}
+/* //HEADER */
+
+
+/* HERO */
+.hero-main {
+  margin-top: 100px;
+  display: flex;
+}
+
+.hero-info {
+  width: 410px;
+  height: 300px;
+}
+
+.hero-info-hr {
+  margin: 0;
+  display: inline-block;
+}
+
+.hero-info-header2 {
+  width: 350px;
+  margin: 0;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.hero-info-paragraph {
+  margin-left: 44px;
+}
+
+.hero-info-button {
+  width: 200px;
+  height: 65px;
+  margin-left: 44px;
+  text-decoration: none;
+  background-color: rgb(49, 31, 31);
+  color: rgb(255, 255, 255);
+}
+
+.hero-img {
+  margin-left: 300px;
+}
+/* //HERO */
+
+
+/* QUALITY */
+.quality {
+  margin-top: 150px;
+}
+
+.quality-heading {
+  text-align: center;
+}
+
+.heading-main-link {
+  width: 104px;
+  height: 15px;
+  margin-left: 1100px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(68, 66, 64);
+}
+
+.qualuity-list {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.quality-items-list {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(27, 26, 23, 0.82);
+  list-style-type: none;
+}
+
+.quality-link {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: rgb(27, 26, 23);
+
+}
+
+.quality-items-hr {
+  width: 25px;
+  margin-right: 15px;
+  display: inline-block;
+  border: 1px solid rgb(139, 131, 113);
+}
+/* //QUALITY */
+
+
+/* GEN-CUALITY  */
+.gen-quality {
+  width: 1200px;
+  margin-top: 150px;
+  margin-left: 30px;
+  display: flex; 
+}
+
+.gen-quality-info {
+  width: 400px;
+  height: 250px;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.gen-quality-heading {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 43px;
+  color: rgb(27, 26, 23);
+}
+
+.gen-quality-paragraph {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(68, 66, 64);
+}
+
+.gen-quality-link {
+  width: 200px;
+  height: 60px;
+  margin: auto;
+  padding: auto;
+  background-color: rgb(119, 105, 83);
+  color: rgb(255, 255, 255);
+}
+/* //GEN-CUALITY  */
+
+
+/* SOCIAL-NET */
+.social-net {
+  width: 1200px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-net-info {
+  width: 350px;
+  height: 120px;
+  margin-top: 100px;
+}
+
+.social-net-heading {
+  width: 471px;
+  height: 33px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 43px;
+  color: rgb(27, 26, 23);
+}
+
+.social-net-paragraph {
+  width: 376px;
+  height: 43px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgb(68, 66, 64);
+}
+
+.social-net-imgs {
+  margin-top: 100px;
+}
+
+.social-net-img {
+  width: 630px;
+  display: flex;
+  margin: auto;
+}
+/* //SOCIAL-NET */
+
+
+/* FOOTER */
+.footer {
+  width: 1366px;
+  height: 275px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(68, 66, 64);
+}
+
+.footer-logo {
+  width: 135px;
+  height: 100px;
+  margin: auto;
+}
+
+.footer-all-lists {
+  margin: auto;
+  color: rgb(255, 255, 255);
+}
+
+.footer-items {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 25px;
+  color: rgba(250, 250, 250, 0.75);
+  list-style-type: none;
+}
+
+.footer-logo-link {
+  text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.footer-all-ul {
+  padding-left: 0;
+}
+
+.footer-main-link {
+  line-height: 25px;
+} 
+/* //FOOTER */
